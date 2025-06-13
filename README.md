@@ -1,8 +1,11 @@
 # Food Delivery JavaSwing OOP Project
 
 A desktop application built with Java Swing, designed as a simplified food delivery system inspired by platforms like FoodPanda.  
-**Note:** This is not a clone or replica of FoodPanda, but rather an educational project showcasing key Object-Oriented Programming (OOP) concepts—**inheritance, polymorphism, abstraction, and interfaces**—in a real-world use case.  
-The UI is intentionally simple, as Java Swing was used due to instructor requirements.
+
+> **Note:** This is not an exact replica of FoodPanda, but rather an educational project inspired by multiple real-world food delivery platforms.  
+> The goal is to demonstrate Object-Oriented Programming (OOP) concepts in a realistic application context.  
+> The user interface is intentionally minimal and may appear outdated due to the limitations of Java Swing and the requirement for the project to be built using native Java.
+
 
 ---
 
@@ -24,6 +27,10 @@ The UI is intentionally simple, as Java Swing was used due to instructor require
 - **View & Manage Restaurants:** Oversee restaurant accounts and their menus
 - **Order Oversight:** Review and manage all orders in the system
 
+### 🧾 Order History
+- **Track All Orders:** View a complete history of all orders in the system  
+- **Retrieve by Username:** Find order history for any specific user  
+- **Retrieve by Restaurant:** Access all orders associated with a particular restaurant
 ---
 
 ## OOP Concepts Demonstrated
@@ -91,7 +98,74 @@ If you have screenshots, add them here!
 ![Login Screen](screenshots/login.png)
 ![User Dashboard](screenshots/user-dashboard.png)
 -->
+<h2></h2>
+<p align="center">
+  <img src="screenshots/Screenshot 2025-06-13 203118.png" alt="Login Screen" width="400"/>
+</p>
 
+
+<h2>User</h2>
+<ul>
+    <li> 
+        <h4>Login Page</h4>
+        <p align="center">
+          <img src="screenshots/Screenshot 2025-06-13 203136.png" alt="Login Screen" width="400"/>
+        </p>   
+    </li>
+        <li> 
+        <h4>Food ordering page</h4>
+        <p align="center">
+          <img src="screenshots/Screenshot 2025-06-13 203232.png" alt="Login Screen" width="400"/>
+        </p>  
+    </li>
+    <li>
+        <h4>User can add or remove items to his cart.</h4>
+    </li>
+    <li>
+        <h4>User can select any number of items he desire to checkout or find Total.</h4>
+    </li>
+</ul>
+
+
+
+<h2>Restaurant Side</h2>
+
+<ul>
+    <li>
+        <h4>Dashboard</h4>
+        <p align="center">
+          <img src="screenshots/Screenshot 2025-06-13 203324.png" alt="Login Screen" width="400"/>
+        </p>        
+    </li>
+    <li>
+        <h4>Restaurant - Add Item</h4>
+        <p align="center">
+          <img src="screenshots/Screenshot 2025-06-13 203539.png" alt="Login Screen" width="400"/>
+        </p>
+    </li>
+    <li>
+        <h4>Similarly, Restaurants can remove or edit items as well</h4>
+    </li>
+</ul>
+
+<h2>Admin Panel</h2>
+<ul>
+    <li>
+        <h4>Admin Page: Admin can see all the restaurants, user. Remove them or edit their information</h4>
+         <p align="center">
+          <img src="screenshots/Screenshot 2025-06-13 203936.png" width="400"/>
+        </p>
+    </li>
+    <li>
+        <h4>Restaurant Info: Admin can see details of a specific restaurant: Add , edit or remove items</h4>
+         <p align="center">
+          <img src="screenshots/Screenshot 2025-06-13 203951.png" width="400"/>
+        </p>
+    </li>
+    <li>
+        <h4>Order History: Admin can see all the orders history</h4>
+    </li>
+</ul>
 ---
 
 ## Limitations & Notes
